@@ -13,3 +13,11 @@ Interactive setup
 ```
 
 Then point your browser at http://localhost:8080.
+
+
+Acknowledgements
+----------------
+This code is based on the prior work of John Chilton (https://bitbucket.org/jmchilton) and Björn Grüning (https://github.com/bgruening)...
+
+ * https://github.com/bgruening/docker-recipes
+ * https://bitbucket.org/galaxy/galaxy-central/pull-request/401/allow-tools-and-deployers-to-specify/diff
