@@ -14,17 +14,22 @@ If you're on Mac, there are 'official' instructions at https://docs.docker.com/i
 Usage
 -----
 
-
 Interactive setup
 ```
 [sudo] docker build . -t "galaxy-docker"
 [sudo] docker run -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /galaxy --name galaxy galaxy-docker
 ```
 
-or just grab the docker image from hub.docker.io
+Or just grab the docker image from hub.docker.io
 ```
 [sudo] docker run -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /galaxy --name galaxy andrewcstewart/galaxy-docker
 ```
+
+Or you can try using fig (http://orchardup.github.io/)
+```
+fig up
+```
+
 
 Then point your browser at http://localhost:8080/
 
