@@ -3,6 +3,14 @@ Docker in Galaxy in Docker
 
 Running docker in galaxy .. in docker.   (Galaxy Hackathon 2014)
 
+Install
+-------
+
+First you need Docker.  https://docs.docker.com/installation/
+
+If you're on Mac, there are 'official' instructions at https://docs.docker.com/installation/mac/ but there is also https://github.com/noplay/docker-osx which as the added benefit of port mapping between OS X and the VM running Docker (so Galaxy ends up getting served at http://locakdocker:8080/
+
+
 Usage
 -----
 
@@ -18,7 +26,7 @@ or just grab the docker image from hub.docker.io
 [sudo] docker run -d -p 8080:8080 -v /var/run/docker.sock:/var/run/docker.sock -v /galaxy --name galaxy andrewcstewart/galaxy-docker
 ```
 
-Then point your browser at http://localhost:8080.
+Then point your browser at http://localhost:8080/
 
 
 Acknowledgements
