@@ -3,6 +3,11 @@ Docker in Galaxy in Docker
 
 Running docker in galaxy .. in docker.   (Galaxy Hackathon 2014)
 
+
+The purpose of this repository is just to document and demosntrate the proces of configuring a Galaxy container in Docker that can run jobs in separate Docker containers.  For the priamry "Galaxy and Docker" code base see https://github.com/bgruening/docker-recipes
+
+
+
 Install
 -------
 
